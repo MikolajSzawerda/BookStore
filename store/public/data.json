@@ -1,0 +1,102 @@
+[
+    {
+        "ISBN":"0195153448",
+        "Book-Title":"Classical Mythology",
+        "Book-Author":"Mark P. O. Morford",
+        "Year-Of-Publication":2002,
+        "Publisher":"Oxford University Press",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0195153448.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0195153448.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0195153448.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0002005018",
+        "Book-Title":"Clara Callan",
+        "Book-Author":"Richard Bruce Wright",
+        "Year-Of-Publication":2001,
+        "Publisher":"HarperFlamingo Canada",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0002005018.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0002005018.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0002005018.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0060973129",
+        "Book-Title":"Decision in Normandy",
+        "Book-Author":"Carlo D'Este",
+        "Year-Of-Publication":1991,
+        "Publisher":"HarperPerennial",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0060973129.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0060973129.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0060973129.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0374157065",
+        "Book-Title":"Flu: The Story of the Great Influenza Pandemic of 1918 and the Search for the Virus That Caused It",
+        "Book-Author":"Gina Bari Kolata",
+        "Year-Of-Publication":1999,
+        "Publisher":"Farrar Straus Giroux",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0374157065.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0374157065.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0374157065.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0393045218",
+        "Book-Title":"The Mummies of Urumchi",
+        "Book-Author":"E. J. W. Barber",
+        "Year-Of-Publication":1999,
+        "Publisher":"W. W. Norton &amp; Company",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0393045218.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0393045218.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0393045218.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0399135782",
+        "Book-Title":"The Kitchen God's Wife",
+        "Book-Author":"Amy Tan",
+        "Year-Of-Publication":1991,
+        "Publisher":"Putnam Pub Group",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0399135782.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0399135782.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0399135782.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0425176428",
+        "Book-Title":"What If?: The World's Foremost Military Historians Imagine What Might Have Been",
+        "Book-Author":"Robert Cowley",
+        "Year-Of-Publication":2000,
+        "Publisher":"Berkley Publishing Group",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0425176428.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0425176428.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0425176428.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0671870432",
+        "Book-Title":"PLEADING GUILTY",
+        "Book-Author":"Scott Turow",
+        "Year-Of-Publication":1993,
+        "Publisher":"Audioworks",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0671870432.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0671870432.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0671870432.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"0679425608",
+        "Book-Title":"Under the Black Flag: The Romance and the Reality of Life Among the Pirates",
+        "Book-Author":"David Cordingly",
+        "Year-Of-Publication":1996,
+        "Publisher":"Random House",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/0679425608.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/0679425608.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/0679425608.01.LZZZZZZZ.jpg"
+    },
+    {
+        "ISBN":"074322678X",
+        "Book-Title":"Where You'll Find Me: And Other Stories",
+        "Book-Author":"Ann Beattie",
+        "Year-Of-Publication":2002,
+        "Publisher":"Scribner",
+        "Image-URL-S":"http:\/\/images.amazon.com\/images\/P\/074322678X.01.THUMBZZZ.jpg",
+        "Image-URL-M":"http:\/\/images.amazon.com\/images\/P\/074322678X.01.MZZZZZZZ.jpg",
+        "Image-URL-L":"http:\/\/images.amazon.com\/images\/P\/074322678X.01.LZZZZZZZ.jpg"
+    }
+]
