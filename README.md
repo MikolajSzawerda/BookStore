@@ -18,5 +18,5 @@ Fullstack app - website of book store
 
 ### Listing
 
-![](mock/listing.png)
+![](store/mock/listing.png)
 
