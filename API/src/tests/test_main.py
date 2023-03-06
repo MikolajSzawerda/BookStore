@@ -5,14 +5,6 @@ from src.app.main import app
 client = TestClient(app)
 
 
-def test_read_main():
-    response = client.get("/")
+def test_get_book_by_isbn(mongo_mock):
+    response = client.get("/books/0195153448")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello World"}
-
-
-@pytest.mark.parametrize("name", ["name1", "name2", "a"])
-def test_say_name(name):
-    response = client.get(f"/hello/{name}")
-    assert response.status_code == 200
-    assert response.json() == {"message": f"Hello {name}"}
