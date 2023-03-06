@@ -1,18 +1,19 @@
 import pytest
 from fastapi.testclient import TestClient
+from httpx import AsyncClient
 from src.app.main import app
 
-client = TestClient(app)
 
-
-def test_read_main():
-    response = client.get("/")
+@pytest.mark.anyio
+async def test_get_book_by_isbn(mongo_mock):
+    async with AsyncClient(app=app, base_url="http://test") as client:
+        response = await client.get("/books/0195153448")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello World"}
 
 
-@pytest.mark.parametrize("name", ["name1", "name2", "a"])
-def test_say_name(name):
-    response = client.get(f"/hello/{name}")
+@pytest.mark.anyio
+async def test_getting_feed(mongo_mock):
+    async with AsyncClient(app=app, base_url="http://test") as client:
+        response = await client.get("/feed/books")
     assert response.status_code == 200
-    assert response.json() == {"message": f"Hello {name}"}
+    assert len(response.json()) == 10
