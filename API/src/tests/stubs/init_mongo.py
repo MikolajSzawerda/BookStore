@@ -1,14 +1,11 @@
+from typing import List
+
 from pymongo import MongoClient
 import pandas as pd
 
 
-def main():
-    client = MongoClient("mongodb://root:example@localhost:27017/")
-    # if not client.is_mongos:
-    #     raise Exception("No mongo running")
-    client.drop_database('bookstore')
-    col = client['bookstore']['books']
-    stubs = pd.read_json("books_stub.json")
+def get_books_stub(path) -> list[dict]:
+    stubs = pd.read_json(path)
     stubs.rename(columns={
         'ISBN': 'isbn',
         'Book-Title': 'book_title',
@@ -18,7 +15,15 @@ def main():
         'Image-URL-M': 'image_url',
     }, inplace=True)
     stubs.drop(columns=['Image-URL-S', 'Image-URL-L'], inplace=True)
-    col.insert_many(stubs.to_dict('records'))
+    return stubs.to_dict('records')
+
+
+def main():
+    client = MongoClient("mongodb://root:example@localhost:27017/")
+    client.drop_database('bookstore')
+    col = client['bookstore']['books']
+
+    col.insert_many(get_books_stub("books_stub.json"))
 
 
 if __name__ == '__main__':
