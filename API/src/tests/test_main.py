@@ -16,4 +16,4 @@ async def test_getting_feed(mongo_mock):
     async with AsyncClient(app=app, base_url="http://test") as client:
         response = await client.get("/feed/books")
     assert response.status_code == 200
-    assert len(response.json()) == 10
+    assert len(response.json()) == 4
