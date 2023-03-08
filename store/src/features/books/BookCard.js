@@ -2,19 +2,23 @@ import Paper from '@mui/material/Paper'
 import {Box, Button, Card, CardActions, CardContent, CardMedia, Grid, Typography} from "@mui/material";
 import React from "react";
 
-const BookCard = () => {
+const TEXT_LIMIT = 45
+
+const BookCard = ({book}) => {
+    console.log(book)
+    const title = book.book_title.length < TEXT_LIMIT ? (book.book_title) : (book.book_title.substring(0, TEXT_LIMIT-3)+"...")
     return (
-        <Card sx={{maxWidth: 150, maxHeight: 400}}>
+        <Card sx={{width: 200, height: 400}}>
             <Paper>
-                <CardMedia component="img" image="http://images.amazon.com/images/P/0195153448.01.MZZZZZZZ.jpg"/>
+                <CardMedia component="img" image={book.image_url} sx={{width:200, height: 200}}/>
             </Paper>
             <CardContent sx={{padding:0}}>
-                <Typography gutterBottom variant="subtitle1" component="div" sx={{fontWeight: "bold"}}>Lorem Ipsum</Typography>
+                <Typography gutterBottom variant="subtitle1" component="div" sx={{fontWeight: "bold"}}>{title}</Typography>
                 <Box sx={{
                     display: "flex",
                     justifyContent: "space-between",
                 }}>
-                    <Typography align="left">John Smith</Typography>
+                    <Typography align="left">{book.book_author}</Typography>
                     <Typography align="right" sx={{fontWeight: "bold"}} color="secondary.dark">$12.00</Typography>
                 </Box>
             </CardContent>

@@ -1,19 +1,14 @@
 import './App.css';
-import BookCard from "./BookCard";
 import {CssBaseline, Grid, ThemeProvider} from "@mui/material";
 import {Box, Container} from "@mui/material";
-import theme from "./Palette";
-import SearchBar from "./SearchBar";
-import NavBar from "./NavBar";
-import NavPag from "./NavPag";
+import NavBar from "./features/navbar/NavBar";
+import SearchBar from "./features/searchbar/SearchBar";
+import NavPag from "./features/pagination/NavPag";
+import theme from "./app/Palette";
+import BookCard from "./features/books/BookCard";
+import {BookListing} from "./features/books/BookListing";
 
-function products() {
-    return Array.from({length: 12}, (_, i) =>
-        <Grid item xs={2}>
-            <BookCard/>
-        </Grid>
-    )
-}
+
 
 function App() {
     return (
@@ -30,9 +25,7 @@ function App() {
                         justifyContent: "space-evenly",
                     }}>
                         <SearchBar/>
-                        <Grid container spacing={2} sx={{marginTop: 2}}>
-                            {products()}
-                        </Grid>
+                        <BookListing/>
                     </Box>
                     <Box sx={{
                         marginTop: 2,
